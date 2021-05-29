@@ -1,0 +1,113 @@
+.formContainerNew{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-image: url('https://mllkj3ew3nfo.i.optimole.com/xS4gjRM-Ms0A0S2K/w:1920/h:1200/q:65/https://soygeek.news/wp-content/uploads/2016/07/Beautiful-Pok%C3%A9mon-GO-Wallpaper.jpg');
+    height: 110vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.addH2{
+    background-color: lavender;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width:fit-content;
+    margin: 0 auto;
+}
+.addH3{
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: lavender;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.addH5{
+    margin-block-start: 0px;
+    background-color: plum;
+    width: fit-content;
+    padding: 0px 5px;
+    margin: 0px auto;
+}
+.nameDiv{
+    margin: 20px 0px 0px 10px
+}
+.typeContainer{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+.form-group{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(5px, auto);
+    background-color: plum;
+    text-align: left;
+    padding: 0px 15px;
+    border-radius: 15px;
+    margin: 0px auto
+}
+.inter{
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+.typeDiv{
+    width: 80%;
+    max-width: 600px;
+    display:flex;
+    justify-content:center;
+    margin: 5px;
+    margin: auto
+}
+.typeIn{
+    width:80px;
+    margin: 0px 5px;
+}
+.statIn{
+    width:30px;
+}
+.imgIn{
+    width: 500px;
+    margin: 0px 5px
+}
+.dimDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin: auto
+}
+.dimIn{
+    width: 50px;
+    margin: 0px 5px;
+}
+.addLabel{
+    background-color: plum;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-weight: bold;
+    display:flex;
+    width: fit-content;
+    margin: 0 auto
+}
+.imgContainer{
+    display: flex;
+}
+.crear{
+    border-radius: 10px;
+    background-color: magenta;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    border-color: magenta;
+    border-width: 5px;
+    width: 100px;
+    margin-top: 20px;
+}

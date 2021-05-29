@@ -1,0 +1,16 @@
+.landingBack{
+    background-image: url('https://eskipaper.com/images/pokemon-wallpaper-2.jpg');
+    height: 100vh;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ingreso{
+    margin-top: 50px;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 3px;
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,96 @@
+
+.pokemonViewer{
+    background-image: url('https://cutewallpaper.org/21/pokemon-stadium-wallpaper/Old-Pokemon-Stadium-Background-Related-Keywords-.png');
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.description{
+    display:flex;
+    justify-content: center;
+}
+.pokeImg{
+    height: 350px;
+}
+.h1{
+    margin-bottom: 0px
+}
+h2{
+    text-align: center;
+    margin: 0px
+}
+h3{
+    text-align: left;
+    margin: 5px ;
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+}
+.type{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width:50%;
+    padding: 6px 0px;
+    margin:2px;
+    font-weight: bold;
+}
+.name{
+    width:fit-content;
+    margin: 0 auto;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    padding: 0px 10px
+}
+.statsNames{
+    display:flex;
+    flex-direction: column;
+}
+.statValues{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.statCombat{
+    border-radius: 5px;
+    background-color: rgb(255, 149, 110);
+    margin:2px;
+}
+.statLife{
+    border-radius: 5px;
+    background-color:lightgreen;
+    margin:2px;
+}
+.statBody{
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin:2px; 
+}
+.valueCombat{
+    border-radius: 5px;
+    background-color: peachpuff;
+    padding: 6.5px;
+    margin:2px;
+    font-weight: bold;
+}
+.valueLife{
+    border-radius: 5px;
+    background-color: rgb(170, 238, 170);
+    padding: 6.5px;
+    margin:2px;
+    font-weight: bold;
+}
+.valueBody{
+    border-radius: 5px;
+    background-color:rgb(228, 227, 227);
+    padding: 6.5px;
+    margin:2px;
+    font-weight: bold;
+}
+.title{
+    background-color: aquamarine;    
+}
+.divTipos{
+    margin-bottom: 10px;
+}

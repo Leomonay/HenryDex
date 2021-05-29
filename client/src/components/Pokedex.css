@@ -1,0 +1,143 @@
+.wrapper{
+    background-color: wheat;
+    background-image: url('https://cdn.bulbagarden.net/upload/3/37/Box_Pok%C3%A9Center_IV.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110vw;
+    padding-bottom: 10px;
+}
+.hh{
+    width:fit-content;
+    padding: 5px;
+    margin: 5px auto;
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+}
+form{
+    margin-bottom: 20px;
+}
+.SchImg{
+    height: 150px;
+}
+.pokeNotLoaded{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: red;
+    border-radius: 8px;
+    color: yellow;
+    font-weight: bold;
+    margin: 2px;
+    padding: 10px;
+    position: relative;
+}
+.error,.option{
+    margin:0;
+}
+.pokeLoaded{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: lightyellow;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 0px 10px;
+    position: relative;
+}
+
+.liPoke{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    background-color: lightyellow;
+    border-radius: 8px;
+    margin: 2px
+}
+h4{
+    margin: 5px 0px;
+}
+.liImg{
+    height: 50px;
+}
+.pokeInfo{
+    display: flex;
+    flex-direction: column;
+}
+.tipos{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:10px;
+}
+.titulo{
+    background-color: lightblue;
+    width: 100%;
+    border-radius:5px;
+    padding: 0px 5px;
+}
+.dato{
+    font-weight: bold;
+    align-items: center;
+}
+.PokeStats{
+    display: inline-flex;
+}
+.statBox{
+    margin: 10px 0px;
+}
+.stat{
+    background-color: rgb(223, 222, 222);
+    padding: 0px 5px;
+    margin: 0px 2px;
+    border-radius: 5px;
+}
+.form-Container{
+    width: fit-content;
+    position: relative
+}
+.searchContainer{
+    position: relative
+}
+.label{
+    font-weight: bold;
+    background-color: lightsalmon;
+    padding: 2px
+}
+.encabezado{
+    display:flex;
+    justify-content: center;
+}
+.paginador{
+    display:flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+}
+.pagButton{
+    width:fit-content;
+    margin: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+.pagLabel{
+    font-weight: bold;
+    background-color: bisque;
+    padding: 0px;
+    border-radius: 5px;
+}
+.filterButtons{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(5px, auto);
+}
+.typeButton{
+    width: 100%;
+}
